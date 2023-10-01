@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color : grey;
+}
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 30px;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 1.2rem;
+}
+
+#card-title {
+    text-align: center;
+}
+
+h2 {
+    color : black(223, 2, 247);
+}
+
+h1 {
+    color: rgb(3, 3, 88);
+}
+
+#card input {
+    width: 60%;
+    padding: 7px;
+    border-radius: 6px;
+    border: rgb(99, 3, 255) 1px solid;
+    font-weight: bolder;
+    font-family: 'outfit', sans;
+}
+
+#card label {
+    font-weight: bold;
+    color: rgb(3, 3, 88);
+    margin-bottom: -16px;
+}
+
+#card p {
+    font-weight: bold;
+    color:black;
+}
+
+
+
+#card-button {
+    align-self: start;
+    padding: 10px;
+
+    font-family: 'Outfit', sans-serif;
+    background-color:black;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+}
+
+#card-button:hover {
+    background-color: rgb(95, 95, 231);
+}
+
+
+#results {
+    color: black(155, 1, 1);
+    font-weight: 600;
+}
